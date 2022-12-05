@@ -10,9 +10,11 @@ h1 {
     margin: 0 auto;
     text-align: left;
     font-size: 30px;
+    list-style: none;
 }
 .list li img {
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 img {
     display: block;
