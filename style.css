@@ -1,0 +1,19 @@
+
+h1 {
+    font-size: 60px;
+}
+.gimch {
+    margin: 50px 0;
+}
+.list {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30px;
+}
+.list li img {
+    margin-top: 30px;
+}
+img {
+    display: block;
+}
