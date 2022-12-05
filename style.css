@@ -17,3 +17,21 @@ h1 {
 img {
     display: block;
 }
+header {  
+    height: 75px;
+    padding: 1rem;
+    color: white;
+    background: tomato;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+  }
+.wrap {
+    padding-top: 75px;
+}
