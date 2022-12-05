@@ -35,3 +35,16 @@ header {
 .wrap {
     padding-top: 75px;
 }
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+}
+span {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
