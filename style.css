@@ -22,10 +22,7 @@ nav {
 nav span {
     font-size: 25px;
 }
-.gimch {
-    width: 100%;
-    /* margin: 0 auto; */
-}
+
 .list {
     width: 50rem;
     margin: 50px auto;
@@ -34,6 +31,9 @@ nav span {
 }
 .list li img {
     margin-top: 1.875rem;
+}
+.var li img {
+    margin-top: 1.875rem;    
 }
 img {
     display: block;
@@ -45,7 +45,7 @@ img {
     margin: 0 auto;
 }
 .wrap li{
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .wrap li img{
     width: 42.9375rem;
@@ -79,8 +79,47 @@ section article img{
 section article span{
     margin: 10px 0;
     display: block;
+}
+
+.pad {
+    list-style: none;
+}
+
+.var {
+    list-style: none;
+}
+
+.font {
     font-size: 20px;
 }
 
 
+
+
+/*    banner    */
+.banner {
+    position: relative;
+}
+.gimch {
+    width: 100%;
+}
+.banner h2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 200px;
+    color: white;
+    text-shadow: 2px 6px 2px gray; 
+}
+.banner span {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    /* text-shadow: 2px 2px 2px gray;  */
+
+}
+/*    banner    */
 
