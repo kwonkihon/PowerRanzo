@@ -32,6 +32,9 @@ nav span {
 .list li img {
     margin-top: 1.875rem;
 }
+.var li img {
+    margin-top: 1.875rem;    
+}
 img {
     display: block;
 }
