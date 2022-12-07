@@ -64,3 +64,7 @@ a {
 .var {
     list-style: none;
 }
+
+.font {
+    font-size: 20px;
+}
