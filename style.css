@@ -57,3 +57,10 @@ a {
     color: white;
 }
 
+.pad {
+    list-style: none;
+}
+
+.var {
+    list-style: none;
+}
