@@ -1,58 +1,59 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
+}
+header {  
+    background: tomato;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+}
+nav {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 171px;
+}
+nav span {
+    font-size: 25px;
 }
 .gimch {
-    margin: 50px 0;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 .list {
-    width: 800px;
-    margin: 0 auto;
+    width: 50rem;
+    margin: 50px auto;
     text-align: left;
-    font-size: 30px;
-    list-style: none;
+    font-size: 1.875rem;
 }
 .list li img {
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 1.875rem;
 }
 img {
     display: block;
 }
-header {  
-    height: 75px;
-    padding: 1rem;
-    color: white;
-    background: tomato;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    /* width: 100% */
-    left: 0;
-    right: 0;
-  }
+
 .wrap {
-    padding-top: 75px;
+    padding: 75px 0;
+    width: 75rem;
+    margin: 0 auto;
+}
+.wrap li{
+    margin-top: 30px;
+}
+.wrap li img{
+    width: 42.9375rem;
+    height: 396;
 }
 
-.navi {
-    display: flex;
-    justify-content: space-between;
-}
-span {
-    padding: 10px;
-}
 a {
     text-decoration: none;
     color: white;
 }
 
-.pad{
-    padding-top: 30px;
-}
-.v_kimchi {
-    width: 500px;
-}
